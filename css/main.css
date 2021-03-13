@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color:rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     height: 70px;
     line-height: 70px;
     position: fixed;
@@ -24,9 +24,12 @@ header nav ul li {
     padding-left: 30px;
 }
 
-
 .logo {
     float: left;
+}
+
+.logo-pic {
+    width: 35px;
 }
 
 nav {
@@ -40,7 +43,8 @@ header nav ul li a {
     transition: all 0.3s ease-in;
 }
 
-header nav ul li a:hover, header nav ul li a:focus {
+header nav ul li a:hover,
+header nav ul li a:focus {
     color: #c61f27;
     text-decoration: none;
 }
@@ -54,7 +58,6 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .mainArea {
     margin-top: 170px;
-
 }
 
 .mainArea h1 {
@@ -88,7 +91,6 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .btn-success:hover {
     background-color: #7c0b06;
-
 }
 
 #services {
@@ -156,7 +158,9 @@ header nav ul li a:hover, header nav ul li a:focus {
     padding: 50px 0 50px 0;
 }
 
-.fa-clock, .fa-users, .fa-thumbs-up {
+.fa-clock,
+.fa-users,
+.fa-thumbs-up {
     font-size: 72px;
     color: #fff;
 }
@@ -211,7 +215,6 @@ header nav ul li a:hover, header nav ul li a:focus {
     margin-right: 5px;
 }
 
-
 .fa-linkedin-in {
     color: #fff;
     font-size: 18px;
@@ -259,7 +262,8 @@ form {
     margin: 0 auto;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     background-color: #c61f27;
     border: none;
@@ -292,23 +296,10 @@ input::placeholder {
     margin-bottom: 20px;
 }
 
-.contactContent a{
+.contactContent a {
     color: #0925f5;
 }
+
 .contactContent a:hover {
     color: #0a7bff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
